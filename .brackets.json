@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Phonegap/ionic-tutorial/ngionicpic/plugins/cordova-plugin-splashscreen/tests/tests.js",
+        "C:/Phonegap/ionic-tutorial/ngionicpic/www/js/controllers.js"
+    ]
+}

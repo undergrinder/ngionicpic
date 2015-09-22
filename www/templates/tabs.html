@@ -1,0 +1,29 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+
+  <ion-tab title="Móriczka" icon-off="ion-coffee" icon-on="ion-beer" href="#/tab/kezdolap">
+    <ion-nav-view name="kezdolap"></ion-nav-view>
+  </ion-tab>
+
+
+  <ion-tab title="Képek" icon-off="ion-image" icon-on="ion-images" href="#/tab/images">
+    <ion-nav-view name="imglist"></ion-nav-view>
+  </ion-tab>
+
+
+  <ion-tab title="Színes gombok" icon-off="ion-icecream" icon-on="ion-pizza" href="#/tab/szinesgomb">
+    <ion-nav-view name="szines-gomb"></ion-nav-view>
+  </ion-tab>
+  
+
+  <ion-tab title="LoremIpsum" icon-off="ion-arrow-shrink" icon-on="ion-arrow-expand" href="#/tab/lorem">
+    <ion-nav-view name="tab-lorem"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
